@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1734281880 source:c:\users\hp\desktop\lab_10\musicplayerdsaproject\main.cpp
+	"MusicPlayer.h"
+
+1734283179 c:\users\hp\desktop\lab_10\musicplayerdsaproject\include\musicplayer.h
+	"Playlist.h"
+	"PlaybackQueue.h"
+	"SearchEngine.h"
+	"Shuffle.h"
+	<string>
+
+1734283316 c:\users\hp\desktop\lab_10\musicplayerdsaproject\include\playlist.h
+	"Song.h"
+	"vector"
+
+1734281880 c:\users\hp\desktop\lab_10\musicplayerdsaproject\include\song.h
+	<string>
+
+1734283650 c:\users\hp\desktop\lab_10\musicplayerdsaproject\include\playbackqueue.h
+	<vector>
+	"Song.h"
+
+1734281880 c:\users\hp\desktop\lab_10\musicplayerdsaproject\include\searchengine.h
+	<vector>
+	<string>
+	"Queue.h"
+
+1734281880 c:\users\hp\desktop\lab_10\musicplayerdsaproject\include\queue.h
+
+1734281880 c:\users\hp\desktop\lab_10\musicplayerdsaproject\include\shuffle.h
+	"Song.h"
+
+1734283687 source:c:\users\hp\desktop\lab_10\musicplayerdsaproject\src\musicplayer.cpp
+	"MusicPlayer.h"
+	<iostream>
+	<vector>
+
+1734283480 source:c:\users\hp\desktop\lab_10\musicplayerdsaproject\src\playbackqueue.cpp
+	"PlaybackQueue.h"
+	<iostream>
+
+1734283314 source:c:\users\hp\desktop\lab_10\musicplayerdsaproject\src\playlist.cpp
+	"Playlist.h"
+	<iostream>
+
+1734281880 source:c:\users\hp\desktop\lab_10\musicplayerdsaproject\src\searchengine.cpp
+	"SearchEngine.h"
+	<cctype>
+	<iostream>
+
+1734281880 source:c:\users\hp\desktop\lab_10\musicplayerdsaproject\src\shuffle.cpp
+	"Shuffle.h"
+	<algorithm>
+	<cstdlib>
+
+1734281880 source:c:\users\hp\desktop\lab_10\musicplayerdsaproject\src\song.cpp
+	"Song.h"
+	<iostream>
+
+1734281915 source:c:\users\hp\desktop\lab_10\musicplayerdsaproject\src\queue.cpp
+	"Queue.h"
+	<stdexcept>
+	"SearchEngine.h"
+
